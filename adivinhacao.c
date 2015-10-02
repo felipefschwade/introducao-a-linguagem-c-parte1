@@ -16,7 +16,10 @@ int main(){
 		printf("Parabéns! Você acertou!\n");
 		printf("Jogue de novo, você é um bom jogador!\n");
 	} else {
-		printf("Você erro!\n");
-		printf("Mas não desanime, tente de novo!\n");
+		if (chute > numerosecreto){
+			printf("Seu chute foi maior que o número secreto.\n");
+		} else {
+			printf("Seu chute foi menor que o número secreto.\n");
+		}
 	}
 }
