@@ -8,8 +8,7 @@ int main(){
 	int numerosecreto = 42;
 	int chute;
 
-	for (int i = 0; i <= 3; ++i){
-
+	for (int i = 1; i <= 3; ++i){
 		printf("Qual e o seu chute? ");
 		scanf("%d", &chute);
 		printf("Seu chute foi %d\n", chute);
@@ -19,7 +18,7 @@ int main(){
 			printf("Parabéns! Você acertou!\n");
 			printf("Jogue de novo, você é um bom jogador!\n");
 		} else {
-			maior = (chute > numerosecreto);
+			int maior = (chute > numerosecreto);
 			if (maior){
 				printf("Seu chute foi maior que o número secreto.\n");
 			} else {
