@@ -1,4 +1,6 @@
 #include <stdio.h> -> Utilizado para incluir as bibliotecas da linguagem C
+#define SYMBOL value -> define uma constante.
+
 int main() {/*Code*/} -> Função necessária para escrever programas em C
 printf("%s\n"); -> Para imprimir algo na tela. 
 tipo nomevariavel = valor -> Para Definir variáveis em C
