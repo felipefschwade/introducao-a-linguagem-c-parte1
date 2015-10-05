@@ -12,6 +12,7 @@ for (int i = 0; i < count; ++i)
 {
 	/* code */
 	break; -> para quebrar um loop
+	continue; -> Não executa o resto do código porém continua o loop
 }
 
 gcc programa.c -o programa.extensão
