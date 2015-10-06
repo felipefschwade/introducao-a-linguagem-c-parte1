@@ -35,5 +35,5 @@ int main(){
 		tentativas++;
 	}
 	printf("Jogue de novo, você é um bom jogador!\n");
-	printf("Número de pontos: %f\n", pontos);
+	printf("Número de pontos: %.1f\n", pontos);
 }
