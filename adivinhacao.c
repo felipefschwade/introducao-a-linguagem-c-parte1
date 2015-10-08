@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(){
 	printf("******************************************\n");
 	printf("* Bem Vindo ao nosso jogo de adivinhacao *\n");
 	printf("******************************************\n");
 
-	int numerosecreto = 42;
+	int segundos = time(0); //Definindo o número de segundos de 1/1/1970 até hoje
+	srand(segundos); //Utilizando o número de segundos como formula parao Rand
+	int numerogrande = rand();
+	int numerosecreto = numerogrande % 100; //Definindo um número aleatório entre 0 e 100;
 	int chute;
 	int tentativas = 1;
 	double pontos = 1000;
