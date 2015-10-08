@@ -1,4 +1,5 @@
 #include <stdio.h> -> Utilizado para incluir as bibliotecas da linguagem C
+#include <stdlib.h> -> biblioteca padrão de C
 #define SYMBOL value -> define uma constante.
 
 int main() {/*Code*/} -> Função necessária para escrever programas em C
@@ -6,7 +7,7 @@ printf("%s\n"); -> Para imprimir algo na tela.
 tipo nomevariavel = valor -> Para Definir variáveis em C
 printf("%d", var) -> Para imprimir variáveis do tipo inteiro;
 scanf("%tipo", &variavel) -> Para realizar leituras do teclado; 
-
+abs(numero) -> Para Conseguir o número absoluto de um número;
 Sintaxe do For:g
 for (int i = 0; i < count; ++i)
 {
