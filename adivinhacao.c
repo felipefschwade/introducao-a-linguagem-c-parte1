@@ -30,7 +30,7 @@ int main(){
 		} else {
 			printf("Seu chute foi menor que o número secreto.\n");
 			}
-		double pontosperdidos = (chute - numerosecreto) / 2.0;
+		double pontosperdidos = (chute - numerosecreto) / (double)2;
 		pontos-=pontosperdidos;
 		tentativas++;
 	}
